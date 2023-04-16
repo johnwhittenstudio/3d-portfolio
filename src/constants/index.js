@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  wordpress,
 } from "../assets";
 
 export const navLinks = [
@@ -99,6 +100,10 @@ const technologies = [
   {
     name: "Three JS",
     icon: threejs,
+  },
+  {
+    name: "Wordpress",
+    icon: wordpress,
   },
   {
     name: "git",
