@@ -21,6 +21,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import wordpress from "./tech/wordpress.png";
+// import photoshop from "./tech/photoshop.png";
+// import illustrator from "./tech/illustrator.png";
+// import indesign from "./tech/indesign.png";
+// import lightroom from "./tech/lightroom.png";
+// import premiere from "./tech/premiere.png";
+// import aftereffects from "./tech/aftereffects.png"
+// import audition from "./tech/audition.png";
+// import sketchup from "./tech/sketchup.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -54,6 +62,14 @@ export {
   typescript,
   threejs,
   wordpress,
+  // photoshop,
+  // illustrator,
+  // indesign,
+  // lightroom,
+  // premiere,
+  // aftereffects,
+  // audition,
+  // sketchup,
   meta,
   shopify,
   starbucks,

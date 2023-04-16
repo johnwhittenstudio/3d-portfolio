@@ -24,6 +24,14 @@ import {
   tripguide,
   threejs,
   wordpress,
+  // photoshop,
+  // illustrator,
+  // indesign,
+  // lightroom,
+  // premiere,
+  // aftereffects,
+  // audition,
+  // sketchup,
 } from "../assets";
 
 export const navLinks = [
@@ -86,6 +94,10 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "Wordpress",
+    icon: wordpress,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -102,10 +114,6 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "Wordpress",
-    icon: wordpress,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -117,6 +125,38 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  // {
+  //   name: "photoshop",
+  //   icon: photoshop,
+  // },
+  // {
+  //   name: "illustrator",
+  //   icon: illustrator,
+  // },
+  // {
+  //   name: "indesign",
+  //   icon: indesign,
+  // },
+  // {
+  //   name: "lightroom",
+  //   icon: lightroom,
+  // },
+  // {
+  //   name: "premiere",
+  //   icon: premiere,
+  // },
+  // {
+  //   name: "aftereffects",
+  //   icon: aftereffects,
+  // },
+  // {
+  //   name: "audition",
+  //   icon: audition,
+  // },
+  // {
+  //   name: "sketchup",
+  //   icon: sketchup,
+  // },
 ];
 
 const experiences = [
