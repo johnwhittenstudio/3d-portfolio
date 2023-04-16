@@ -262,6 +262,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
+    live_url_link: "https://johnwhittenstudio.com/",
   },
   {
     name: "Job IT",
@@ -283,6 +284,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    live_url_link: "https://johnwhittenstudio.com/",
   },
   {
     name: "Trip Guide",
@@ -304,6 +306,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    live_url_link: "https://johnwhittenstudio.com/",
   },
 ];
 
