@@ -15,6 +15,7 @@ import {
   git,
   figma,
   docker,
+  osu,
   meta,
   starbucks,
   tesla,
@@ -161,11 +162,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Digital Art Instructor",
+    company_name: "Oregon State University",
+    icon: osu,
+    iconBg: "#E6DEDD",
+    date: "December 2015 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -177,7 +178,7 @@ const experiences = [
     title: "React Native Developer",
     company_name: "Tesla",
     icon: tesla,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",

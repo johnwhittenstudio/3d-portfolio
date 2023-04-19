@@ -31,6 +31,7 @@ import wordpress from "./tech/wordpress.png";
 // import audition from "./tech/audition.png";
 // import sketchup from "./tech/sketchup.png";
 
+import osu from "./company/osu.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -72,6 +73,7 @@ export {
   // aftereffects,
   // audition,
   // sketchup,
+  osu,
   meta,
   shopify,
   starbucks,
