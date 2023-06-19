@@ -15,14 +15,17 @@ import {
   git,
   figma,
   docker,
+  jws,
   osu,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  ivet360,
+  wellwell,
+  carnation,
   carrent,
   jobit,
   tripguide,
+  coredigital,
+  thunderstruck,
+  fitness,
   threejs,
   wordpress,
   // photoshop,
@@ -162,55 +165,64 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Freelance Designer and Web Developer",
+    company_name: "John Whitten Studio",
+    icon: jws,
+    iconBg: "#383e56",
+    date: "September 2010 - Present",
+    points: [
+      "Fulfilled contract and private commissions for web design, fine artwork, layout design, videography, and photography.",
+      "Developed concepts, produced and pitched completed work directly to clients with 100% customer satisfaction.",
+      "Funded over 14 projects totalling over $185K sourced from regional and national arts and government granting organizations.",
+    ],
+  },
+  {
     title: "Digital Art Instructor",
     company_name: "Oregon State University",
     icon: osu,
     iconBg: "#E6DEDD",
     date: "December 2015 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Designed and facilitated (100+) term-long undergraduate on-campus + online courses geared for both majors and non-majors in digital art, video, animation, photography, graphic and web design.",
+      "Completely overhauled the first-year required CORE courses resulting in a 30% increase in freshman art majors.",
+      "Prepared compelling, accessible learning resources delivered through LMS and various modalities aimed to teach complex technical skills and processes to beginner and advanced-level learners.",
+    ],
+  },
+  {
+    title: "Front-end Developer Intern",
+    company_name: "iVET360",
+    icon: ivet360,
+    iconBg: "#162b5d",
+    date: "Jul 2022 - Sep 2022",
+    points: [
+      "Developed and maintaining web applications using WordPress, PHP, CSS, and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Co-Founding Director & Web Designer",
+    company_name: "Well Well Projects",
+    icon: wellwell,
+    iconBg: "#f7f6f8",
+    date: "Jan 2021 - Present",
+    points: [
+      "Collaborated with a small team to conceive, launch,and manage a cooperative art galleries with rotating monthly programming and community-focused events.",
+      "Supported a 14+ member base through website design & content management + photo documentation.",
+      "Developed captivating media content (web pages, videos,animations) that lead to a 80% increase in web traffic.",
+    ],
+  },
+  {
+    title: "Co-Founding Director & Web Designer",
+    company_name: "Carnation Contemporary",
+    icon: carnation,
     iconBg: "#383E56",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2018 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with a small team to conceive, launch,and manage a cooperative art galleries with rotating monthly programming and community-focused events.",
+      "Supported a 18+ member base through website design & content management + photo documentation.",
+      "Developed captivating media content (web pages, videos,animations) that lead to a 60% increase in web traffic.",
     ],
   },
 ];
@@ -244,60 +256,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Core Digital",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Student learning supplement website for college-level digital arts course complete with weekly lessons, 4 major project assignments, and instructor contact information.",
     tags: [
       {
-        name: "react",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-    live_url_link: "https://johnwhittenstudio.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-    live_url_link: "https://johnwhittenstudio.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "php",
         color: "green-text-gradient",
       },
       {
@@ -305,9 +273,53 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    live_url_link: "https://johnwhittenstudio.com/",
+    image: coredigital,
+    source_code_link: "https://github.com/johnwhittenstudio",
+    live_url_link: "https://dll.qxo.mybluehost.me/",
+  },
+  {
+    name: "Thunderstruck",
+    description:
+      "Portfolio site with image galleries, interactive digital books, animations, artist profiles, and more for the Thunderstruck Collective artist project.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "particleimage",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: thunderstruck,
+    source_code_link: "https://github.com/johnwhittenstudio/thunderstruck",
+    live_url_link: "https://thunderstruckcollective.com/",
+  },
+  {
+    name: "Fitness App",
+    description:
+      "Web app to choose exercise categories and specific muscle groups, browse exercises with practical examples, pull related videos from youtube, display similar exercises, and much more.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fitness,
+    source_code_link: "https://github.com/johnwhittenstudio/fitness_app",
+    live_url_link: "https://jws-fitness.netlify.app/",
   },
 ];
 

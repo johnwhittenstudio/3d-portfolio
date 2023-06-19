@@ -47,8 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in
-        JavaScript and WordPress, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner who can work efficiently and effectively under tight deadlines with folks from all backgrounds. I love collaborating closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+        I'm a skilled software developer and designer with experience in
+        JavaScript and WordPress, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner who can work efficiently and effectively with folks from all backgrounds. I love collaborating closely with clients to create efficient, scalable, accessible, and user-friendly solutions with beautiful ui that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
