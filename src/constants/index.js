@@ -23,6 +23,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  johnwhitten,
   coredigital,
   thunderstruck,
   fitness,
@@ -256,12 +257,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Core Digital",
+    name: "John Whittten Art",
     description:
-      "Student learning supplement website for college-level digital arts course complete with weekly lessons, 4 major project assignments, and instructor contact information.",
+      "Visual art portfolio site with image galleries, animations, and interactive flip book.",
     tags: [
       {
-        name: "wordpress",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
@@ -273,10 +274,32 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: coredigital,
-    source_code_link: "https://github.com/johnwhittenstudio",
-    live_url_link: "https://dll.qxo.mybluehost.me/",
+    image: johnwhitten,
+    source_code_link: "https://github.com/johnwhittenstudio/john-whitten_art.git",
+    live_url_link: "https://johnwhitten.com/",
   },
+  // {
+  //   name: "Core Digital",
+  //   description:
+  //     "Student learning supplement website for college-level digital arts course complete with weekly lessons, 4 major project assignments, and instructor contact information.",
+  //   tags: [
+  //     {
+  //       name: "wordpress",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "php",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: coredigital,
+  //   source_code_link: "https://github.com/johnwhittenstudio",
+  //   live_url_link: "https://dll.qxo.mybluehost.me/",
+  // },
   {
     name: "Thunderstruck",
     description:

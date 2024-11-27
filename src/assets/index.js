@@ -45,6 +45,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import johnwhitten from "./johnwhitten.png";
 import coredigital from "./coredigital.png";
 import thunderstruck from "./thunderstruck.png";
 import fitness from "./fitness.png";
@@ -93,6 +94,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  johnwhitten,
   coredigital,
   thunderstruck,
   fitness,
